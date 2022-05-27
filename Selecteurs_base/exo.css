@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: aqua;
+}
+
+header nav{
+    display: flex;
+    background-color: rgb(242, 255, 0);
+    justify-content: space-between;
+}
+
+header nav a{
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+header nav ul{
+    display: flex;
+    padding: 2rem 0;
+}
+
+header nav li{
+    list-style: none;
+}
+
+header .slider{
+    height: 700px;
+    width: 100%;
+    background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4RJ6W?ver=0809&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=130&y=345&s=2647&d=993&aim=true');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+header .slider div{
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
+
+h1{
+    margin-bottom: 3rem;
+    color: black;
+}
+
+header .slider p{
+    margin-bottom: 6rem;
+    color: black;
+}
+
+header .slider a{
+    margin-top: 6rem;
+    padding: 1.5rem 1rem;
+    background-color: white;
+}
+
+header .slider a:first-of-type{
+    background-color: black;
+    margin-right: 3.5rem;
+}
+
+header .last-div{
+    display: flex;
+    justify-content: center;
+}
+
+header .last-div a{
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 150px;
+}
+
+header .last-div img{
+    margin-bottom: 1rem;
+}
+
+main .layout1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+main .layout1 div{
+    max-width: 250px;
+    padding: 0 2.5rem;
+}
